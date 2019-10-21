@@ -1,22 +1,23 @@
-import .pin
+from .pin import *
 
-D4 = pin.D4
-D5 = pin.D5
-D6 = pin.D6
-D7 = pin.D7
-C0 = pin.C0
-C1 = pin.C1
-C2 = pin.C2
-C3 = pin.C3
-C4 = pin.C4
-C5 = pin.C5
-C6 = pin.C6
-C7 = pin.C7
+RESET = D4
+D5 = D5
+D6 = D6
+D7 = D7
+C0 = C0
+C1 = C1
+C2 = C2
+C3 = C3
+C4 = C4
+C5 = C5
+C6 = C6
+C7 = C7
 
-SDA = pin.SDA
-SCL = pin.SCL
+SDA = SDA
+SCL = SCL
 
-SCK = pin.SCK
-SCLK = pin.SCLK
-MOSI = pin.MOSI
-MISO = pin.MISO
+SCK = SCK
+SCLK = SCLK
+MOSI = MOSI
+MISO = MISO
+CS = CS
