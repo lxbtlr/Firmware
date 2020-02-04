@@ -17,7 +17,7 @@ boolean debug = true;                       // true/false = extra/no information
 
 float roll, pitch, yaw;                     // Variable to hold roll, pitch, yaw information
 
-Adafruit_BNO055 bno = Adafruit_BNO055();    // Use object bno to hold information
+Adafruit_BNO055 bno = Adafruit_BNO05  5();    // Use object bno to hold information
 
 
 void setup(void) {
