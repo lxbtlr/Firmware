@@ -1,6 +1,8 @@
 //---- Included Libraries ----//
 #include <Wire.h>                           // I²C library
 #include <math.h>                           // trig functions
+#include <SD.h>
+#include <SPI.h>
 #include <Adafruit_Sensor.h>                // Base library for sensors
 #include <Adafruit_BNO055.h>                // BNO055 (IMU) specific lib
 #include <Adafruit_MPL3115A2.h>             // MPL3115A2 (Barometer) specic lib
